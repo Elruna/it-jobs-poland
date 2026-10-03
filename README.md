@@ -16,7 +16,7 @@ Based on 672 offers.
 5. **Senior pay is higher than mid-level pay.** For offers quoted as net + VAT, the median monthly equivalent is about 26,900 PLN for senior (n=50, quartiles 23,500-28,000) against about 21,400 PLN for mid-level (n=71, quartiles 18,000-23,500), roughly 25% more.
 
 ## Data
-- Source: pracuj.pl job offers, collected in the Kaggle dataset "DATASET NAME" by AUTHOR (LINK). License: LICENSE. Last updated: DATE.
+- Source: pracuj.pl job offers, collected in the Kaggle dataset "Data Science Job Listings from pracuj.pl".
 - The dataset is filtered to data fields (data engineering, analysis, AI, ML). It also contains analyst-type roles, so these are "data and analysis related roles", not only data science.
 - 672 offers, one snapshot. There is no date column, so the data can't show trends.
 

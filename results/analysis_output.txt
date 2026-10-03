@@ -1,0 +1,138 @@
+1. OFFERS BY LOWEST LEVEL
+              n  share_%
+level_min               
+mid         394     58.6
+senior      179     26.6
+entry        54      8.0
+management   45      6.7
+Open to entry level: 54 (8.0%)
+
+2. WHERE
+Remote share %: 17.4
+On-site, single city: 508 | multi-location offers: 47
+            n  share_of_onsite_%
+city                            
+Warszawa  223               43.9
+Kraków    106               20.9
+Wrocław    45                8.9
+Poznań     29                5.7
+Gdańsk     22                4.3
+Łódź       20                3.9
+Katowice   14                2.8
+Lublin      6                1.2
+
+Entry-level on-site offers by city:
+ city
+Warszawa    22
+Kraków       7
+Wrocław      5
+Lublin       3
+Szczecin     1
+Name: count, dtype: int64
+
+3. SKILLS
+
+Top skills, all offers (offers with skills listed: 578)
+                       offers  share_%
+skill                                 
+SQL                       282     48.8
+Python                    190     32.9
+Azure                      71     12.3
+AWS                        57      9.9
+Power BI                   52      9.0
+Jira                       51      8.8
+BPMN                       49      8.5
+UML                        47      8.1
+Oracle                     44      7.6
+Confluence                 40      6.9
+Docker                     33      5.7
+Google Cloud Platform      31      5.4
+
+Top skills, entry-level offers (offers with skills listed: 40)
+            offers  share_%
+skill                      
+SQL             25     62.5
+Python          11     27.5
+Excel            7     17.5
+Power BI         4     10.0
+JavaScript       3      7.5
+HTML             3      7.5
+CSS              3      7.5
+T-SQL            3      7.5
+UML              3      7.5
+BPMN             3      7.5
+PostgreSQL       2      5.0
+Git              2      5.0
+
+Top skills, senior offers (offers with skills listed: 166)
+                       offers  share_%
+skill                                 
+SQL                        78     47.0
+Python                     67     40.4
+Azure                      28     16.9
+AWS                        25     15.1
+Docker                     16      9.6
+Oracle                     15      9.0
+Jira                       14      8.4
+Google Cloud Platform      12      7.2
+Java                       11      6.6
+Confluence                 11      6.6
+PL/SQL                     10      6.0
+Power BI                   10      6.0
+
+4. PAY
+Offers with pay: 218 of 672 (32.4%)
+
+Share with pay, by lowest level:
+            offers  with_pay  share_pct
+level_min                              
+entry           54        11       20.4
+management      45        11       24.4
+mid            394       119       30.2
+senior         179        77       43.0
+
+EXCLUDED as implausible (monthly equivalent < 3 000 zl): 3
+                                title                               pay pay_period
+170  Data Architect (French speaking)  170–200 zł netto (+ VAT) / mies.      month
+199                 Market Researcher     2 589–3 024 zł brutto / mies.      month
+239      Senior Data Engineer (Azure)  120–160 zł netto (+ VAT) / mies.      month
+
+Pay by basis and period (native units: zl/month or zl/hour):
+                                 n   median       q1       q3  small_sample
+pay_basis           pay_period                                             
+depends_on_contract hour         1    185.0    185.0    185.0          True
+                    month       48  18300.0  12500.0  22926.0         False
+gross               hour         3     75.0     53.0    111.0          True
+                    month       37  20000.0  11000.0  25000.0         False
+net_plus_vat        hour        66    140.0    120.0    155.0         False
+                    month       60  22840.0  18338.0  27075.0         False
+
+Monthly-equivalent pay by basis (hourly x 168):
+                       n   median       q1       q3  small_sample
+pay_basis                                                        
+depends_on_contract   49  18600.0  12500.0  23350.0         False
+gross                 40  19500.0  10875.0  24835.0         False
+net_plus_vat         126  23125.0  19425.0  26975.0         False
+
+Net + VAT, monthly-equivalent, by lowest level:
+             n   median       q1       q3  small_sample
+level_min                                              
+entry        1   7560.0   7560.0   7560.0          True
+management   4  22722.0  15425.0  27283.0          True
+mid         71  21420.0  18018.0  23520.0         False
+senior      50  26880.0  23520.0  28000.0         False
+
+Gross, monthly-equivalent, by lowest level:
+             n   median       q1       q3  small_sample
+level_min                                              
+entry        7   6700.0   5896.0   8368.0          True
+management   6  26458.0  24250.0  30229.0          True
+mid         18  17375.0  12000.0  23775.0         False
+senior       9  24250.0  21500.0  25375.0          True
+
+Net + VAT, monthly-equivalent, by city:
+           n   median       q1       q3  small_sample
+city                                                 
+Kraków     7  25200.0  21630.0  28140.0          True
+Warszawa  27  19250.0  15960.0  21500.0         False
+Wrocław    4  26460.0  23415.0  27930.0          True
